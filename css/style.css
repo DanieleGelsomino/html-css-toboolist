@@ -4,13 +4,14 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 header {
     background-color: white;
     height: 70px;
 }
+
 
 #logo {
     height: 50px;
@@ -27,4 +28,73 @@ header {
 
 .container {
     background-color: white;
+    border-radius: 3px;
+    width: 80%;
+    margin: auto;
+    height:650px;
+}
+
+.content {
+    margin-left: 50px;
+
+
+}
+
+.buttons {
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+
+
+.color1 {
+    background-color: royalblue;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid royalblue;
+    padding: 5px;
+}
+
+.color2 {
+    background-color: white;
+    color: lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+
+ul{
+    list-style: none;
+    padding-inline-start: 10px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.check {
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 0 5px 0 5px;
+    border: 1px solid green;
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cross {
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 0 7px 0 7px;
+    border: 1px solid red;
+    color:red;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
