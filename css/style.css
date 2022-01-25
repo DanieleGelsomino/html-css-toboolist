@@ -5,6 +5,7 @@
 
 body {
     background-color: whitesmoke;
+    margin: 0;
 }
 
 header {
@@ -28,10 +29,8 @@ header {
 
 .container {
     background-color: white;
-    border-radius: 3px;
     width: 80%;
     margin: auto;
-    height:650px;
 }
 
 .content {
@@ -41,31 +40,31 @@ header {
 }
 
 .buttons {
-    background-color: white;
-    width: 80%;
-    margin-top: 50px;
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container-main {
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
-
-.color1 {
-    background-color: royalblue;
-    color: white;
+.button {
     border-radius: 3px;
-    border: 1px solid royalblue;
     padding: 5px;
+
 }
 
-.color2 {
+.bg-gray {
     background-color: white;
     color: lightgray;
-    border-radius: 3px;
-    padding: 5px;
-    border: 1px solid black;
+    border: 1px solid gray;
 
 }
 
@@ -97,4 +96,25 @@ li {
     color:red;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.badge {
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid lightblue;
+}
+
+.bg-violet {
+    background-color: violet;
+    color: white;
+}
+li {
+    margin-top: 15px;
 }
